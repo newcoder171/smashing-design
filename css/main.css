@@ -17,7 +17,6 @@
 .header div {
     width: 15%;
     height: 150px;
-    /* background-color:  rgb(82, 79, 79); */
     background: transparent;
     text-align: center;
     border: 1px solid #696969;
@@ -102,4 +101,62 @@ div #box-two{
 #box-four{
   background-color: #222;
 
+}
+
+#main-posts{
+    padding: 0 40px;
+}
+
+.posts-items{
+    float: left;
+    width: 25%;
+    height: 500px;
+    padding: 40px 0;
+}
+
+.posts-items-big{
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #888888;
+}
+
+.posts-items h1 {
+    background-color: #444;
+    height: 70px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.posts-items p{
+    background-color: #666;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 80%;
+}
+
+.posts-items span {
+    display: block;
+    margin-top: 25px;
+    margin-left: 38px; 
+    background-color: #555555;
+    height: 20px;
+    width: 50%;
+}
+
+.posts-items div {
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #555555;
+    height: 300px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
 }
