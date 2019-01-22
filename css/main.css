@@ -67,3 +67,39 @@
     background-color: rgb(134, 125, 125);
 }
 
+.main-top{
+  text-align: center;
+  background-color: #555;
+
+
+}
+
+.box{
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+div #box-one{
+  background-color: #333;
+  
+
+
+}
+
+div #box-two{
+  background-color: #444;
+  ;
+
+}
+
+#box-three{
+  background-color: #111;
+  ;
+
+}
+
+#box-four{
+  background-color: #222;
+
+}
