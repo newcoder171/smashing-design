@@ -38,7 +38,7 @@
     width: 60%;
     height: 30px;
     background-color: #353030;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .header p {
@@ -50,7 +50,7 @@
 
 .header-icons {
     margin: 0 auto;
-    margin-top: 35px;
+    margin-top: 30px;
     background-color: #353030 !important;
     width: 80%;
     height: 35px !important;
