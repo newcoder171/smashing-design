@@ -110,18 +110,51 @@ div #box-two{
 .posts-items{
     float: left;
     width: 25%;
-    height: 500px;
+    height: 650px;
     padding: 40px 0;
 }
 
 .posts-items-big{
     float: left;
     width: 50%;
-    height: 500px;
+    height: 650px;
     padding: 40px 0;
     margin-bottom: 40px;
     border-radius: 20px;
     background-color: #888888;
+}
+
+.posts-items-big h1 {
+    background-color: #444;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 50%;
+}
+
+.posts-items-big :nth-child(2){
+    background-color: #666;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 60%;
+}
+
+.posts-items-big p{
+    background-color: #666;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 35%;
+}
+
+.posts-items-big div {
+    background-color: #666;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 35%;
+    border-radius: 8px;
 }
 
 .posts-items h1 {
