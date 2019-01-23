@@ -234,7 +234,6 @@ div #box-two{
     background-color: #444;
     height: 30px;
     width: 100%;
-    /* width: 100%; */
 }
 
 .left {
@@ -264,8 +263,6 @@ div #box-two{
   background-color: #444;
   height: 55px;
   width: 65px;
-
-
 }
 
 .text-box{
@@ -273,4 +270,83 @@ div #box-two{
   background-color: #555;
   height: 300px;
   width: 80%;
+}
+
+#design-system {
+    height: 250px;
+    margin-top: 50px;
+    background: #696969;
+    padding: 80px 80px 30px 100px;
+}
+
+#design-system h1 {
+    width: 350px;
+    height: 53px;
+    background-color: #353030;
+    margin-bottom: 8px;
+}
+
+#design-system p {
+    margin-top: 10px;
+    width: 70%;
+    height: 20px;
+    background-color: #353030;
+}
+
+#design-system div {
+    width: 250px;
+    height: 65px;
+    margin-top: 15px;
+    background-color: #353030;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+#guides{
+    padding: 0 40px;
+}
+
+.guides-items{
+    float: left;
+    width: 25%;
+    height: 650px;
+    padding: 40px 0;
+}
+
+.guides-items h1 {
+    background-color: #444;
+    height: 100px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.guides-items p{
+    background-color: #666;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 80%;
+}
+
+
+.guides-items div {
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #555555;
+    height: 300px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.guides-items ul {
+    margin-top: 35px;
+}
+
+.guides-items li {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 60px;
+    background-color: #555555;
+    height: 20px;
+    width: 80%;
 }
