@@ -208,3 +208,35 @@ div #box-two{
   font-weight: bold;
   background-color: #eee;
 }
+
+#person-week {
+    height: 250px;
+    background: #696969;
+    padding: 80px 80px 30px 100px;
+}
+
+#person-week .image {
+    float: left;
+    background-color: #444;
+    height: 180px;
+    width: 180px;
+}
+
+#person-week div:nth-child(2) {
+    width: 900px;
+}
+
+#person-week p {
+    display: block;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: #444;
+    height: 30px;
+    width: 100%;
+    /* width: 100%; */
+}
+
+.left {
+    float: left;
+}
