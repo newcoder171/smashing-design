@@ -240,3 +240,37 @@ div #box-two{
 .left {
     float: left;
 }
+
+.mid-box{
+  height: 1000px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.article{
+  float: left;
+  height: 300px;
+  width: 40%;
+  margin: 65px;
+}
+
+.dp-box, .text-box{
+  float: left;
+  border: 10px solid #fff;
+  border-radius: 15px;
+}
+
+.dp-box{
+  background-color: #444;
+  height: 55px;
+  width: 65px;
+
+
+}
+
+.text-box{
+  text-align: left;
+  background-color: #555;
+  height: 300px;
+  width: 80%;
+}
