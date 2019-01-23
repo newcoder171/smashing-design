@@ -81,7 +81,7 @@
 
 div #box-one{
   background-color: #333;
-  
+
 
 
 }
@@ -175,7 +175,7 @@ div #box-two{
 .posts-items span {
     display: block;
     margin-top: 25px;
-    margin-left: 38px; 
+    margin-left: 38px;
     background-color: #555555;
     height: 20px;
     width: 50%;
@@ -192,4 +192,19 @@ div #box-two{
 
 .clear {
     clear: both;
+  }
+
+.event-box{
+  background-color: #ccc;
+  height: 1000px;
+  text-align: center;
+
+}
+
+#explore{
+  padding: 20px 70px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #eee;
 }
