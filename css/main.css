@@ -301,8 +301,22 @@ div #box-two{
 .text-box{
   text-align: left;
   background-color: #555;
-  height: 300px;
-  width: 80%;
+  height: 290px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 78%;
+}
+
+.text-box p:nth-child(1) {
+    font-size: 25px;
+}
+
+.text-box p:nth-child(4) {
+    font-size: 30px;
+}
+
+.text-box p:nth-child(7) {
+    font-size: 21px;
 }
 
 #design-system {
@@ -404,24 +418,20 @@ div #box-two{
     font-size: 40px;
 }
 
-table{
-  margin-left: 350px;
-  padding: 10px 50px;
-  border-radius: 15px;
-  margin-top: 200px;
-  border: 1px solid #111;
-}
-
-input{
-  height: 20px;
-  border: none;
-}
-
 .within div{
-    width: 350px;
+    width: 420px;
+    height: 60px;
+    outline: none;
+    background: #fff;
     margin: 0 auto;
-    padding: 30px;
+    margin-top: 160px;
     border-radius: 15px;
-    border: 1px solid #000000;
 }
 
+.within div>p{
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 14px;
+}
