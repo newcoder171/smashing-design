@@ -84,38 +84,48 @@ h1 {
 .main-top{
   text-align: center;
   background-color: #555;
-
-
 }
 
 .box{
   float: left;
   width: 50%;
   height: 500px;
+  padding-top: 80px;
+}
+
+.box>h2 {
+    text-align: left;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.box>p{
+    text-align: left;
+    font-size: 20px;
+    margin: 30px 0 30px 50px;
+}
+
+.box>span{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin: 30px 0 30px 50px;
 }
 
 div #box-one{
   background-color: #333;
-
-
-
 }
 
 div #box-two{
   background-color: #444;
-  ;
-
 }
 
 #box-three{
   background-color: #111;
-  ;
-
 }
 
 #box-four{
   background-color: #222;
-
 }
 
 #main-posts{
@@ -144,7 +154,9 @@ div #box-two{
     height: 100px;
     margin: 0 auto;
     margin-top: 180px;
-    width: 50%;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
 }
 
 .posts-items-big :nth-child(2){
@@ -174,9 +186,10 @@ div #box-two{
 
 .posts-items h1 {
     background-color: #444;
-    height: 70px;
+    height: 110px;
+    padding-left: 20px;
     margin: 0 auto;
-    width: 80%;
+    width: 75%;
 }
 
 .posts-items p{
@@ -184,7 +197,8 @@ div #box-two{
     height: 330px;
     margin: 0 auto;
     margin-top: 25px;
-    width: 80%;
+    padding: 10px;
+    width: 75%;
 }
 
 .posts-items span {
@@ -239,6 +253,10 @@ div #box-two{
 
 #person-week div:nth-child(2) {
     width: 900px;
+}
+
+#person-week h3 {
+    margin-left: 15px;
 }
 
 #person-week p {
@@ -309,9 +327,12 @@ div #box-two{
 }
 
 #design-system div {
-    width: 250px;
-    height: 65px;
-    margin-top: 15px;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-top: 25px;
     background-color: #353030;
     margin-bottom: 8px;
     border-radius: 10px;
@@ -331,6 +352,7 @@ div #box-two{
 .guides-items h1 {
     background-color: #444;
     height: 100px;
+    padding-left: 10px;
     margin: 0 auto;
     width: 70%;
 }
@@ -361,16 +383,11 @@ div #box-two{
     margin: 0 auto;
     margin-top: 15px;
     margin-left: 60px;
+    padding-left: 10px;
     background-color: #555555;
     height: 20px;
-    width: 80%;
+    width: 77%;
 }
-
-.last-box{
-
-}
-
-
 
 .within{
   border-radius: 20px;
@@ -383,10 +400,15 @@ div #box-two{
   height: 600px;
 }
 
+.within h2 {
+    font-size: 40px;
+}
+
 table{
   margin-left: 350px;
   padding: 10px 50px;
   border-radius: 15px;
+  margin-top: 200px;
   border: 1px solid #111;
 }
 
@@ -394,3 +416,12 @@ input{
   height: 20px;
   border: none;
 }
+
+.within div{
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
