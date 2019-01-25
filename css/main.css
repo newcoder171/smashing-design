@@ -1,8 +1,8 @@
 @font-face {font-family: "MijaW03-Regular";
     src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot"); /* IE9*/
     src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.woff") format("woff"), /* chrome firefox */
+    url("./fonts/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"), /* chrome firefox */
+    url("fonts/4fb2accf874593635afa99c122467fd6.woff") format("woff"), /* chrome firefox */
     url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.svg#MijaW03-Regular") format("svg"); /* iOS 4.1- */
 }
@@ -74,10 +74,10 @@ h1 {
 #topics {
     position: relative;
     top: 30%;
+    padding: 20px;
     width: 55%;
     margin: 0 auto;
-    height: 60px;
-    vertical-align: middle;
+    height: 20px;
     background-color: rgb(134, 125, 125);
 }
 
