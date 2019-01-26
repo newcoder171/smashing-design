@@ -1,3 +1,4 @@
+/* General CSS*/
 @font-face {font-family: "MijaW03-Regular";
     src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot"); /* IE9*/
     src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -13,6 +14,12 @@
     font-family: "MijaW03-Regular";
 }
 
+a{
+  color: #99f;
+}
+/*ends*/
+
+/*Header CSS begings*/
 h1 {
     /* okay*/
     font-family: "MijaW03-Regular";
@@ -46,7 +53,7 @@ h1 {
     margin: 0 auto;
     height: 100px;
     vertical-align: middle;
-    background-color: rgb(134, 125, 125);
+    background-color: #444;
 }
 
 .tit-box{
@@ -90,6 +97,9 @@ h1 {
     font-size: 22px;
 }
 
+/*ends*/
+
+/*top section CSS begins*/
 .main-top{
   text-align: center;
   background-color: #555;
@@ -100,6 +110,7 @@ h1 {
   text-align: center;
   background-color: #333;
   height: 100px;
+  padding-top: 30px;
   width: 100%;
 
 }
@@ -115,6 +126,11 @@ h1 {
 }
 
 #left-p{
+  height: 20px;
+  padding-top: 5px;
+  width: 150px;
+  border: 2px solid #fff;
+  border-radius: 5px;
   color: #fff;
   background-color: #333;
 }
@@ -145,26 +161,28 @@ h1 {
     margin: 30px 0 30px 50px;
 }
 
-div #box-one{
-  background-color: #333;
+#box-one{
+  background-color: #555;
 }
 
-div #box-two{
-  background-color: #444;
+#box-two{
+  background-color: #777;
 }
 
 #box-three{
-  background-color: #111;
+  background-color: #333;
 }
 
 #box-four{
-  background-color: #222;
+  background-color: #444;
 }
 
 #main-posts{
     padding: 0 40px;
 }
+/*ends*/
 
+/* highlited posts CSS begins*/
 .posts-items{
     color: #000;
     float: left;
@@ -258,16 +276,31 @@ div #box-two{
     width: 80%;
     border-radius: 10px;
 }
+/*ends*/
 
 .clear {
     clear: both;
   }
 
+/*Upcoming events CSS*/
 .event-box{
-  background-color: #ccc;
+  background-color: #777;
   color: #fff;
-  height: 1000px;
+  height: 800px;
   text-align: center;
+
+}
+
+#exp-spkr{
+  color: #77f;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 30%;
+  margin-left: 35%;
+  height: 50px;
+  padding-top: 25px;
+  font-size: 21px;
+  font-weight: 900;
 
 }
 
@@ -278,7 +311,9 @@ div #box-two{
   font-weight: bold;
   background-color: #eee;
 }
+/*ends*/
 
+/* Person of the Week CSS begins*/
 #person-week {
     height: 250px;
     background: #eee;
@@ -310,7 +345,9 @@ div #box-two{
     height: 30px;
     width: 100%;
 }
+/*ends*/
 
+/* Articles CSS begins*/
 .left {
     float: left;
 }
@@ -366,7 +403,9 @@ div #box-two{
 .text-box p:nth-child(7) {
     font-size: 21px;
 }
+/*ends*/
 
+/*Banner CSS begins*/
 #design-system {
     height: 250px;
     color: #fff;
@@ -406,7 +445,9 @@ div #box-two{
     margin-bottom: 8px;
     border-radius: 10px;
 }
+/*ends*/
 
+/*Bottom lists CSS begins*/
 #guides{
     padding: 0 40px;
 }
@@ -432,7 +473,6 @@ div #box-two{
     width: 80%;
 }
 
-
 .guides-items div {
     margin: 0 auto;
     margin-top: 40px;
@@ -455,7 +495,9 @@ div #box-two{
     height: 20px;
     width: 77%;
 }
+/*ends*/
 
+/*Last box CSS begins*/
 .within{
   border-radius: 20px;
   margin-top: -100px;
@@ -490,7 +532,4 @@ div #box-two{
     margin-top: 15px;
     margin-right: 14px;
 }
-
-a{
-  color: #99f;
-}
+/*ends*/
