@@ -30,43 +30,48 @@ h1 {
     background-color: #696969;
 }
 .header div {
-    width: 15%;
+
+    padding-right: 20px;
     height: 150px;
     background: transparent;
     text-align: center;
+    color: white;
     border: 1px solid #696969;
 }
 
 #logo {
     position: relative;
-    top: 30%;
-    width: 80%;
+    top: 15%;
+    width: 200px;
     margin: 0 auto;
-    height: 70px;
+    height: 100px;
     vertical-align: middle;
     background-color: rgb(134, 125, 125);
 }
 
+.tit-box{
+  width: 160px;
+}
+
 .header h1 {
     margin: 0 auto;
-    width: 60%;
-    height: 30px;
-    background-color: #353030;
+    font-size: 25px;
+
     margin-bottom: 8px;
 }
 
 .header p {
     margin: 0 auto;
-    width: 80%;
     height: 20px;
-    background-color: #353030;
+
 }
 
 .header-icons {
     margin: 0 auto;
     margin-top: 30px;
     background-color: #353030 !important;
-    width: 80%;
+    color: #fff;
+    width: 12%;
     height: 35px !important;
     margin-bottom: 10px;
 }
@@ -74,16 +79,44 @@ h1 {
 #topics {
     position: relative;
     top: 30%;
+    left: 15px;
     padding: 20px;
-    width: 55%;
-    margin: 0 auto;
+    width: 100px;
     height: 20px;
     background-color: rgb(134, 125, 125);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 22px;
 }
 
 .main-top{
   text-align: center;
   background-color: #555;
+  color: #fff;
+}
+
+.mt-head{
+  text-align: center;
+  background-color: #333;
+  height: 100px;
+  width: 100%;
+
+}
+
+.fl-l{
+  float: right;
+}
+
+.mt-head h1{
+  background-color: ;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#left-p{
+  color: #fff;
+  background-color: #333;
 }
 
 .box{
@@ -133,6 +166,7 @@ div #box-two{
 }
 
 .posts-items{
+    color: #000;
     float: left;
     width: 25%;
     height: 650px;
@@ -150,7 +184,8 @@ div #box-two{
 }
 
 .posts-items-big h1 {
-    background-color: #444;
+    color: #fff;
+    text-decoration: underline;
     height: 100px;
     margin: 0 auto;
     margin-top: 180px;
@@ -160,7 +195,7 @@ div #box-two{
 }
 
 .posts-items-big :nth-child(2){
-    background-color: #666;
+
     height: 180px;
     margin: 0 auto;
     margin-top: 30px;
@@ -168,16 +203,20 @@ div #box-two{
 }
 
 .posts-items-big p{
-    background-color: #666;
+
+    color: #fff;
     height: 20px;
     margin: 0 auto;
     margin-top: 30px;
-    width: 35%;
+    width: 40%;
 }
 
 .posts-items-big div {
-    background-color: #666;
-    height: 60px;
+    color: #77f;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
     margin: 0 auto;
     margin-top: 30px;
     width: 35%;
@@ -185,15 +224,15 @@ div #box-two{
 }
 
 .posts-items h1 {
-    background-color: #444;
-    height: 110px;
+    background-color: #fff;
+    height: 125px;
     padding-left: 20px;
     margin: 0 auto;
     width: 75%;
 }
 
 .posts-items p{
-    background-color: #666;
+    background-color: #fff;
     height: 330px;
     margin: 0 auto;
     margin-top: 25px;
@@ -203,9 +242,10 @@ div #box-two{
 
 .posts-items span {
     display: block;
+    text-decoration: underline;
     margin-top: 25px;
     margin-left: 38px;
-    background-color: #555555;
+    background-color: #ddd;
     height: 20px;
     width: 50%;
 }
@@ -213,7 +253,7 @@ div #box-two{
 .posts-items div {
     margin: 0 auto;
     margin-top: 40px;
-    background-color: #555555;
+    background-color: #ddd;
     height: 300px;
     width: 80%;
     border-radius: 10px;
@@ -225,6 +265,7 @@ div #box-two{
 
 .event-box{
   background-color: #ccc;
+  color: #fff;
   height: 1000px;
   text-align: center;
 
@@ -240,7 +281,7 @@ div #box-two{
 
 #person-week {
     height: 250px;
-    background: #696969;
+    background: #eee;
     padding: 80px 80px 30px 100px;
 }
 
@@ -257,14 +298,15 @@ div #box-two{
 
 #person-week h3 {
     margin-left: 15px;
+    font-weight: lighter;
 }
 
 #person-week p {
+    font-weight: 550;
     display: block;
     float: left;
     margin-left: 15px;
     margin-bottom: 10px;
-    background-color: #444;
     height: 30px;
     width: 100%;
 }
@@ -274,9 +316,15 @@ div #box-two{
 }
 
 .mid-box{
-  height: 1000px;
+  height: 1300px;
   margin-top: 50px;
   text-align: center;
+  background-color: #eee;
+}
+
+.art-titl{
+   font-size: 30px;
+   font-weight: 800;
 }
 
 .article{
@@ -288,19 +336,19 @@ div #box-two{
 
 .dp-box, .text-box{
   float: left;
-  border: 10px solid #fff;
+  border: 10px solid #eee;
   border-radius: 15px;
 }
 
 .dp-box{
-  background-color: #444;
+  background-color: #fff;
   height: 55px;
   width: 65px;
 }
 
 .text-box{
   text-align: left;
-  background-color: #555;
+  background-color: #eee;
   height: 290px;
   padding-top: 10px;
   padding-left: 10px;
@@ -321,6 +369,7 @@ div #box-two{
 
 #design-system {
     height: 250px;
+    color: #fff;
     margin-top: 50px;
     background: #696969;
     padding: 80px 80px 30px 100px;
@@ -329,25 +378,31 @@ div #box-two{
 #design-system h1 {
     width: 350px;
     height: 53px;
-    background-color: #353030;
     margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+#design-system h4{
+  text-transform: uppercase;
 }
 
 #design-system p {
     margin-top: 10px;
     width: 70%;
     height: 20px;
-    background-color: #353030;
+
 }
 
 #design-system div {
     width: 230px;
     height: 50px;
     font-size: 20px;
+    font-weight: bold;
     padding-left: 30px;
-    padding-top: 15px;
+    padding-top: 10px;
     margin-top: 25px;
-    background-color: #353030;
+    background-color: #eee;
+    color: #44f;
     margin-bottom: 8px;
     border-radius: 10px;
 }
@@ -364,15 +419,13 @@ div #box-two{
 }
 
 .guides-items h1 {
-    background-color: #444;
-    height: 100px;
+    height: 150px;
     padding-left: 10px;
     margin: 0 auto;
     width: 70%;
 }
 
 .guides-items p{
-    background-color: #666;
     height: 330px;
     margin: 0 auto;
     margin-top: 25px;
@@ -383,7 +436,7 @@ div #box-two{
 .guides-items div {
     margin: 0 auto;
     margin-top: 40px;
-    background-color: #555555;
+    color: #555555;
     height: 300px;
     width: 80%;
     border-radius: 10px;
@@ -398,7 +451,7 @@ div #box-two{
     margin-top: 15px;
     margin-left: 60px;
     padding-left: 10px;
-    background-color: #555555;
+    color: #555555;
     height: 20px;
     width: 77%;
 }
@@ -409,7 +462,8 @@ div #box-two{
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 100px;
-  background-color: #bbb;
+  background-color: #696969;;
+  color: #fff;
   text-align: center;
   height: 600px;
 }
@@ -431,7 +485,12 @@ div #box-two{
 .within div>p{
     font-weight: bold;
     font-size: 20px;
+    color: blue;
     float: right;
     margin-top: 15px;
     margin-right: 14px;
+}
+
+a{
+  color: #99f;
 }
