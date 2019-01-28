@@ -1,4 +1,6 @@
 /* General CSS*/
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 @font-face {font-family: "MijaW03-Regular";
     src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot"); /* IE9*/
     src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -7,8 +9,6 @@
     url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.svg#MijaW03-Regular") format("svg"); /* iOS 4.1- */
 }
-
-@import url('https://fonts.googleapis.com/css?family=Lora');
 
 * {
     margin: 0;
@@ -306,6 +306,10 @@ p {
 
 }
 
+.event-box>h2{
+    margin-top: 70px;
+}
+
 #exp-spkr{
   color: #77f;
   background-color: #fff;
@@ -353,7 +357,7 @@ p {
 }
 
 #person-week p {
-    font-weight: 250;
+    font-weight: 300;
     display: block;
     float: left;
     margin-left: 15px;
