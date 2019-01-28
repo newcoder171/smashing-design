@@ -8,6 +8,8 @@
     url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.svg#MijaW03-Regular") format("svg"); /* iOS 4.1- */
 }
 
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +25,10 @@ a{
 h1 {
     /* okay*/
     font-family: "MijaW03-Regular";
+}
+
+p {
+    font-family: 'Lora', serif !important;
 }
 
 .header {
@@ -71,7 +77,7 @@ h1 {
 .header p {
     margin: 0 auto;
     height: 20px;
-
+    font-size: 12px;
 }
 
 .header-icons {
@@ -261,6 +267,7 @@ h1 {
     margin: 0 auto;
     margin-top: 25px;
     padding-left: 10px;
+    font-size: 22px;
     width: 75%;
 }
 
@@ -346,11 +353,12 @@ h1 {
 }
 
 #person-week p {
-    font-weight: 550;
+    font-weight: 250;
     display: block;
     float: left;
     margin-left: 15px;
     margin-bottom: 10px;
+    font-size: 22px;
     height: 30px;
     width: 100%;
 }
@@ -438,7 +446,7 @@ h1 {
     margin-top: 10px;
     width: 70%;
     height: 20px;
-
+    font-size: 18px;
 }
 
 #design-system div {
