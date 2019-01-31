@@ -106,6 +106,7 @@ h1 {
   text-align: center;
   background-color: #555;
   color: #fff;
+  padding-bottom: 10px;
 }
 
 .mt-head{
@@ -182,19 +183,44 @@ h1 {
 #box-four{
   background-color: #444;
 }
-
-#main-posts{
-    padding: 0 40px;
-}
 /*ends*/
 
 /* highlited posts CSS begins*/
+#main-posts{
+  overflow-x: hidden;
+    background-color: #fff;
+    width: 100%;
+    margin: 25px;
+    padding: 0;
+    z-index: 1;
+}
+
 .posts-items{
+    z-index: inherit;
+    background-color: inherit;
     color: #000;
     float: left;
-    width: 25%;
-    height: 500px;
-    padding: 150px 0;
+    width: 24%;
+    height: 300px;
+    padding: 100px 0;
+    transition: 0.3s;
+}
+
+.posts-items:hover{
+  z-index: 5;
+  height: 300px;
+  width: 25%;
+  background-color: #eee;
+  padding: 100px 0;
+  cursor: pointer;
+
+}
+
+#h-margin{
+  width: 100%;
+  margin-left: -25px;
+  height: auto !important;
+  background-color: #fff;
 }
 
 .posts-items-big{
@@ -202,6 +228,8 @@ h1 {
     width: 50%;
     height: 650px;
     padding: 40px 0;
+    margin-top: -100px;
+    margin-right: 10px;
     margin-bottom: 40px;
     border-radius: 20px;
     background-color: #888888;
@@ -248,20 +276,22 @@ h1 {
 }
 
 .posts-items h1 {
-    background-color: #fff;
-    height: 125px;
-    padding-left: 10px;
+  text-decoration: underline;
+    background-color: inherit;
+    height: 100px;
+    padding-left: 30px;
     margin: 0 auto;
-    width: 75%;
+    width: auto;
 }
 
 .posts-items p{
-    background-color: #fff;
-    height: 330px;
+    background-color: inherit;
+    height: auto;
     margin: 0 auto;
     margin-top: 25px;
-    padding-left: 10px;
-    width: 75%;
+    padding: 0px 15px 0px 15px;
+    width: auto;
+    transition: 0.0s;
 }
 
 .posts-items span {
@@ -277,8 +307,10 @@ h1 {
 }
 
 .posts-items div {
+
+    text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: #ddd;
     height: 300px;
     width: 80%;
