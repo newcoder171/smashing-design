@@ -1,4 +1,6 @@
 /* General CSS*/
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 @font-face {font-family: "MijaW03-Regular";
     src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot"); /* IE9*/
     src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -23,6 +25,10 @@ a{
 h1 {
     /* okay*/
     font-family: "MijaW03-Regular";
+}
+
+p {
+    font-family: 'Lora', serif !important;
 }
 
 .header {
@@ -71,7 +77,7 @@ h1 {
 .header p {
     margin: 0 auto;
     height: 20px;
-
+    font-size: 12px;
 }
 
 .header-icons {
@@ -289,9 +295,15 @@ h1 {
     height: auto;
     margin: 0 auto;
     margin-top: 25px;
+<<<<<<< HEAD
     padding: 0px 15px 0px 15px;
     width: auto;
     transition: 0.0s;
+=======
+    padding-left: 10px;
+    font-size: 22px;
+    width: 75%;
+>>>>>>> 12b0b43e68f39bbd579024c87e2c6260bfb6e381
 }
 
 .posts-items span {
@@ -329,6 +341,15 @@ h1 {
   height: 800px;
   text-align: center;
 
+}
+
+.event-box>h2{
+    padding-top: 70px;
+    margin-top: 70px;
+}
+
+.event-box > p {
+ margin: 30px 0;
 }
 
 #exp-spkr{
@@ -378,11 +399,12 @@ h1 {
 }
 
 #person-week p {
-    font-weight: 550;
+    font-weight: 300;
     display: block;
     float: left;
     margin-left: 15px;
     margin-bottom: 10px;
+    font-size: 22px;
     height: 30px;
     width: 100%;
 }
@@ -470,7 +492,7 @@ h1 {
     margin-top: 10px;
     width: 70%;
     height: 20px;
-
+    font-size: 18px;
 }
 
 #design-system div {
