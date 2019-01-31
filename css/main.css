@@ -1,0 +1,561 @@
+/* General CSS*/
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+@font-face {font-family: "MijaW03-Regular";
+    src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"), /* chrome firefox */
+    url("fonts/4fb2accf874593635afa99c122467fd6.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.svg#MijaW03-Regular") format("svg"); /* iOS 4.1- */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "MijaW03-Regular";
+}
+
+a{
+  color: #99f;
+}
+/*ends*/
+
+/*Header CSS begings*/
+h1 {
+    /* okay*/
+    font-family: "MijaW03-Regular";
+}
+
+p {
+    font-family: 'Lora', serif !important;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    display: flex;
+    direction: ltr;
+    height: 150px;
+    padding: 5px;
+    align-items: center;
+    box-shadow: 0 2px #888888;
+    background-color: #696969;
+}
+.header div {
+
+    padding-right: 20px;
+    height: 150px;
+    background: transparent;
+    text-align: center;
+    color: white;
+    border: 1px solid #696969;
+}
+
+#logo {
+    position: relative;
+    top: 15%;
+    width: 200px;
+    margin: 0 auto;
+    height: 100px;
+    vertical-align: middle;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.tit-box{
+  width: 160px;
+}
+
+.header h1 {
+    margin: 0 auto;
+    font-size: 25px;
+
+    margin-bottom: 8px;
+}
+
+.header p {
+    margin: 0 auto;
+    height: 20px;
+    font-size: 12px;
+}
+
+.header-icons {
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #ddd !important;
+    color: #fff;
+    width: 12%;
+    height: 35px !important;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#topics {
+    position: relative;
+    top: 30%;
+    left: 15px;
+    padding: 20px;
+    width: 100px;
+    height: 20px;
+    background-color: #555;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+/*ends*/
+
+/*top section CSS begins*/
+.main-top{
+  text-align: center;
+  background-color: #555;
+  color: #fff;
+}
+
+.mt-head{
+  text-align: center;
+  background-color: #333;
+  height: 110px;
+  padding-top: 30px;
+  width: 100%;
+
+}
+
+.fl-l{
+  float: right;
+}
+
+.mt-head h1{
+  background-color: #fff;
+  color: #444;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#left-p{
+  height: 25px;
+  padding-top: 5px;
+  width: 150px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #444;
+  position: relative;
+  right: 30px;
+  bottom: 45px;
+}
+
+.box{
+  float: left;
+  width: 50%;
+  height: 500px;
+  padding-top: 80px;
+}
+
+.box>h2 {
+    text-align: left;
+    font-size: 45px;
+    margin: 50px;
+}
+
+.box>p{
+    text-align: left;
+    font-size: 20px;
+    margin: 30px 0 30px 50px;
+}
+
+.box>span{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin: 30px 0 30px 50px;
+}
+
+#box-one{
+  background-color: #555;
+}
+
+#box-two{
+  background-color: #777;
+}
+
+#box-three{
+  background-color: #333;
+}
+
+#box-four{
+  background-color: #444;
+}
+
+#main-posts{
+    padding: 0 40px;
+}
+/*ends*/
+
+/* highlited posts CSS begins*/
+.posts-items{
+    color: #000;
+    float: left;
+    width: 25%;
+    height: 500px;
+    padding: 150px 0;
+}
+
+.posts-items-big{
+    float: left;
+    width: 50%;
+    height: 650px;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #888888;
+}
+
+.posts-items-big h1 {
+    color: #fff;
+    text-decoration: underline;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 180px;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+}
+
+.posts-items-big :nth-child(2){
+
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 60%;
+}
+
+.posts-items-big p{
+
+    color: #fff;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 40%;
+}
+
+.posts-items-big div {
+    color: #77f;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 35%;
+    border-radius: 8px;
+}
+
+.posts-items h1 {
+    background-color: #fff;
+    height: 125px;
+    padding-left: 10px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.posts-items p{
+    background-color: #fff;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-left: 10px;
+    font-size: 22px;
+    width: 75%;
+}
+
+.posts-items span {
+    display: block;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 38px;
+    color: #111;
+    height: 20px;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.posts-items div {
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #ddd;
+    height: 300px;
+    width: 80%;
+    border-radius: 10px;
+}
+/*ends*/
+
+.clear {
+    clear: both;
+  }
+
+/*Upcoming events CSS*/
+.event-box{
+  background-color: #777;
+  color: #fff;
+  height: 800px;
+  text-align: center;
+
+}
+
+.event-box>h2{
+    padding-top: 70px;
+    margin-top: 70px;
+}
+
+.event-box > p {
+ margin: 30px 0;
+}
+
+#exp-spkr{
+  color: #77f;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 30%;
+  margin-left: 35%;
+  height: 50px;
+  padding-top: 25px;
+  font-size: 21px;
+  font-weight: 900;
+
+}
+
+#explore{
+  padding: 20px 70px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #eee;
+}
+/*ends*/
+
+/* Person of the Week CSS begins*/
+#person-week {
+    height: 250px;
+    background: #eee;
+    padding: 80px 80px 30px 100px;
+}
+
+#person-week .image {
+    float: left;
+    background-color: #444;
+    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+}
+
+#person-week div:nth-child(2) {
+    width: 900px;
+}
+
+#person-week h3 {
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+#person-week p {
+    font-weight: 300;
+    display: block;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    height: 30px;
+    width: 100%;
+}
+/*ends*/
+
+/* Articles CSS begins*/
+.left {
+    float: left;
+}
+
+.mid-box{
+  height: 1350px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #eee;
+}
+
+.art-titl{
+   font-size: 30px;
+   font-weight: 800;
+}
+
+.article{
+  float: left;
+  height: 300px;
+  width: 40%;
+  margin: 65px;
+}
+
+.dp-box, .text-box{
+  float: left;
+  border: 10px solid #eee;
+  border-radius: 15px;
+}
+
+.dp-box{
+  background-color: #fff;
+  height: 55px;
+  width: 65px;
+}
+
+.text-box{
+  text-align: left;
+  background-color: #eee;
+  height: 290px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 78%;
+}
+
+.text-box p:nth-child(1) {
+    font-size: 25px;
+}
+
+.text-box p:nth-child(4) {
+    font-size: 30px;
+}
+
+.text-box p:nth-child(7) {
+    font-size: 21px;
+}
+/*ends*/
+
+/*Banner CSS begins*/
+#design-system {
+    height: 250px;
+    color: #fff;
+    margin-top: 50px;
+    background: #696969;
+    padding: 50px 80px 30px 100px;
+}
+
+#design-system h1 {
+    width: 350px;
+    height: 53px;
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+#design-system h4{
+  text-transform: uppercase;
+}
+
+#design-system p {
+    margin-top: 10px;
+    width: 70%;
+    height: 20px;
+    font-size: 18px;
+}
+
+#design-system div {
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 25px;
+    background-color: #eee;
+    color: #44f;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+/*ends*/
+
+/*Bottom lists CSS begins*/
+#guides{
+    padding: 0 40px;
+}
+
+.guides-items{
+    float: left;
+    width: 25%;
+    height: 650px;
+    padding: 40px 0;
+}
+
+.guides-items h1 {
+    height: 150px;
+    padding-left: 10px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.guides-items p{
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 80%;
+}
+
+.guides-items div {
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #555555;
+    height: 300px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.guides-items ul {
+    margin-top: 35px;
+}
+
+.guides-items li {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding-left: 10px;
+    color: #555555;
+    height: 20px;
+    width: 77%;
+}
+/*ends*/
+
+/*Last box CSS begins*/
+.within{
+  border-radius: 20px;
+  margin-top: -100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+  background-color: #696969;;
+  color: #fff;
+  text-align: center;
+  height: 600px;
+}
+
+.within h2 {
+    font-size: 40px;
+}
+
+.within div{
+    width: 420px;
+    height: 60px;
+    outline: none;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 160px;
+    border-radius: 15px;
+}
+
+.within div>p{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    float: right;
+    margin-top: 15px;
+    margin-right: 14px;
+}
+/*ends*/
