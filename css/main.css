@@ -29,6 +29,12 @@ h1 {
 p {
     font-family: 'Lora', serif !important;
 }
+
+.link-tag{
+  text-decoration: underline;
+  text-decoration-color: #3ae;
+
+}
 /*ends*/
 
 /*Header CSS begings*/
@@ -67,6 +73,10 @@ p {
 
 .tit-box{
   width: 160px;
+}
+
+.tit-box:hover{
+  color: #000;
 }
 
 .header h1 {
@@ -115,6 +125,7 @@ p {
   background-color: #555;
   color: #fff;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .mt-head{
@@ -149,6 +160,13 @@ p {
   position: relative;
   right: 30px;
   bottom: 45px;
+  cursor: pointer;
+}
+
+#left-p:hover{
+  background-color: #ddd;
+  color: #333;
+
 }
 
 .box{
@@ -208,7 +226,7 @@ p {
 
 /* highlited posts CSS begins*/
 #main-posts{
-  overflow-x: hidden;
+    overflow-x: hidden;
     background-color: #fff;
     width: 100%;
     margin: 25px;
@@ -254,12 +272,13 @@ p {
     margin-right: 10px;
     margin-bottom: 40px;
     border-radius: 20px;
-    background-color: #888888;
+    background-color: #888;
 }
 
 .posts-items-big h1 {
     color: #fff;
     text-decoration: underline;
+    text-decoration-color: #bbb;
     height: 100px;
     margin: 0 auto;
     margin-top: 180px;
@@ -286,19 +305,27 @@ p {
 }
 
 .posts-items-big div {
+    font-weight: bolder;
     color: #77f;
     background-color: #fff;
     text-align: center;
     padding-top: 20px;
-    height: 50px;
+    height: 40px;
     margin: 0 auto;
     margin-top: 30px;
     width: 35%;
     border-radius: 8px;
 }
 
+.posts-items-big div:hover{
+  color: #777;
+  background-color: #eee;
+}
+
 .posts-items h1 {
-  text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-color: #3ae;
+    text-decoration-style: solid;
     background-color: inherit;
     height: 100px;
     padding-left: 30px;
@@ -323,10 +350,14 @@ p {
     font-weight: 600;
     margin-top: 25px;
     margin-left: 38px;
-    color: #111;
+    color: #333;
     height: 20px;
     width: 50%;
     padding-left: 10px;
+}
+
+.posts-items span:hover{
+  color: #000;
 }
 
 .posts-items div {
@@ -366,8 +397,10 @@ p {
 #p1{
   font-family: "MijaW03-Regular" !important;
   font-size: 50px;
+  color: #fff;
   font-weight: bolder;
   text-decoration: underline;
+  text-decoration-color: #bbb;
 }
 
 #p2{
@@ -385,6 +418,11 @@ p {
   font-size: 21px;
   font-weight: 900;
 
+}
+
+#exp-spkr:hover{
+  color: #777;
+  background-color: #eee;
 }
 
 #exp-spkr p{
@@ -519,6 +557,7 @@ p {
     height: 53px;
     margin-bottom: 5px;
     text-decoration: underline;
+    text-decoration-color: #4a3;
 }
 
 #design-system h4{
@@ -541,9 +580,18 @@ p {
     padding-top: 10px;
     margin-top: 50px;
     background-color: #eee;
-    color: #44f;
+    color: #4a3;
     margin-bottom: 8px;
     border-radius: 10px;
+}
+
+#design-system div>p{
+  font-family: "MijaW03-Regular" !important;
+}
+
+#design-system div:hover{
+  color: #696969;
+  background-color: #ccc;
 }
 /*ends*/
 
@@ -572,7 +620,6 @@ p {
   padding: 30px 0;
   cursor: pointer;
 }
-
 
 .guides-items h1 {
     height: 150px;
@@ -638,6 +685,8 @@ p {
 
 .within h2 {
     font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #aaa;
 }
 
 .within div{
@@ -650,6 +699,11 @@ p {
     border-radius: 15px;
 }
 
+.within div:hover{
+  background-color: #eee;
+  cursor: pointer;
+}
+
 .within div>p{
     font-family: "MijaW03-Regular" !important;
     font-weight: bolder;
@@ -658,5 +712,9 @@ p {
     float: right;
     margin-top: 15px;
     margin-right: 14px;
+}
+
+.within div>p:hover{
+  color: #696969;
 }
 /*ends*/
