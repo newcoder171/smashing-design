@@ -18,10 +18,9 @@
 
 a{
   color: #99f;
+  font-family: inherit;
 }
-/*ends*/
 
-/*Header CSS begings*/
 h1 {
     /* okay*/
     font-family: "MijaW03-Regular";
@@ -30,7 +29,9 @@ h1 {
 p {
     font-family: 'Lora', serif !important;
 }
+/*ends*/
 
+/*Header CSS begings*/
 .header {
     position: relative;
     top: 0;
@@ -42,6 +43,7 @@ p {
     box-shadow: 0 2px #888888;
     background-color: #696969;
 }
+
 .header div {
 
     padding-right: 20px;
@@ -136,6 +138,7 @@ p {
 }
 
 #left-p{
+  font-family: "MijaW03-Regular" !important;
   height: 25px;
   padding-top: 5px;
   width: 150px;
@@ -163,7 +166,8 @@ p {
 
 .box>p{
     text-align: left;
-    font-size: 20px;
+    font-size: 22px;
+    word-spacing: 2px;
     margin: 30px 0 30px 50px;
 }
 
@@ -172,6 +176,17 @@ p {
     text-align: left;
     font-size: 20px;
     margin: 30px 0 30px 50px;
+}
+
+.hash-tag{
+  padding: 0 3px 0 3px;
+  color: #000 !important;
+}
+
+.com-tag{
+  margin-right: 2px;
+  font-size: 16px;
+  vertical-align: super;
 }
 
 #box-one{
@@ -208,7 +223,8 @@ p {
     float: left;
     width: 24%;
     height: 300px;
-    padding: 100px 0;
+    margin-top: 50px;
+    padding: 50px 0;
     transition: 0.3s;
 }
 
@@ -217,7 +233,7 @@ p {
   height: 300px;
   width: 25%;
   background-color: #eee;
-  padding: 100px 0;
+  padding: 55px 0;
   cursor: pointer;
 
 }
@@ -293,17 +309,12 @@ p {
 .posts-items p{
     background-color: inherit;
     height: auto;
+    font-size: 19px;
     margin: 0 auto;
     margin-top: 25px;
-<<<<<<< HEAD
     padding: 0px 15px 0px 15px;
     width: auto;
     transition: 0.0s;
-=======
-    padding-left: 10px;
-    font-size: 22px;
-    width: 75%;
->>>>>>> 12b0b43e68f39bbd579024c87e2c6260bfb6e381
 }
 
 .posts-items span {
@@ -352,6 +363,17 @@ p {
  margin: 30px 0;
 }
 
+#p1{
+  font-family: "MijaW03-Regular" !important;
+  font-size: 50px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#p2{
+  font-size: 23px;
+}
+
 #exp-spkr{
   color: #77f;
   background-color: #fff;
@@ -363,6 +385,11 @@ p {
   font-size: 21px;
   font-weight: 900;
 
+}
+
+#exp-spkr p{
+  font-family: "MijaW03-Regular" !important;
+  font-weight: bolder;
 }
 
 #explore{
@@ -394,14 +421,20 @@ p {
 }
 
 #person-week h3 {
+    font-family: 'Lora', serif !important;
+    font-size: 17px;
+    color: #555 !important;
+    margin-top: 5px;
     margin-left: 15px;
     font-weight: lighter;
 }
 
 #person-week p {
     font-weight: 300;
+    font-size: 19px !important;
     display: block;
     float: left;
+    margin-top: -10px;
     margin-left: 15px;
     margin-bottom: 10px;
     font-size: 22px;
@@ -423,6 +456,7 @@ p {
 }
 
 .art-titl{
+   font-family: "MijaW03-Regular" !important;
    font-size: 30px;
    font-weight: 800;
 }
@@ -456,7 +490,9 @@ p {
 }
 
 .text-box p:nth-child(1) {
+    font-family: "MijaW03-Regular" !important;
     font-size: 25px;
+
 }
 
 .text-box p:nth-child(4) {
@@ -464,7 +500,8 @@ p {
 }
 
 .text-box p:nth-child(7) {
-    font-size: 21px;
+    font-size: 20px;
+
 }
 /*ends*/
 
@@ -474,13 +511,13 @@ p {
     color: #fff;
     margin-top: 50px;
     background: #696969;
-    padding: 50px 80px 30px 100px;
+    padding: 30px 80px 30px 100px;
 }
 
 #design-system h1 {
     width: 350px;
     height: 53px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     text-decoration: underline;
 }
 
@@ -489,7 +526,7 @@ p {
 }
 
 #design-system p {
-    margin-top: 10px;
+    margin-top: 5px;
     width: 70%;
     height: 20px;
     font-size: 18px;
@@ -502,7 +539,7 @@ p {
     font-weight: bold;
     padding-left: 30px;
     padding-top: 10px;
-    margin-top: 25px;
+    margin-top: 50px;
     background-color: #eee;
     color: #44f;
     margin-bottom: 8px;
@@ -513,20 +550,44 @@ p {
 /*Bottom lists CSS begins*/
 #guides{
     padding: 0 40px;
+    height: 800px;
 }
 
 .guides-items{
+    z-index: 1;
     float: left;
     width: 25%;
-    height: 650px;
+    margin-top: 50px;
+    height: 500px;
     padding: 40px 0;
+    transition: 0.3s;
 }
+
+.guides-items:hover{
+  z-index: 5;
+  height: 500px;
+  width: 25%;
+  background-color: #eee;
+  margin-top: 50px;
+  padding: 30px 0;
+  cursor: pointer;
+}
+
 
 .guides-items h1 {
     height: 150px;
     padding-left: 10px;
     margin: 0 auto;
     width: 70%;
+}
+
+.guides-items h2{
+  font-family: 'Lora', serif !important;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 10px;
+  padding-left: 55px;
 }
 
 .guides-items p{
@@ -550,6 +611,8 @@ p {
 }
 
 .guides-items li {
+    font-family: 'Lora', serif !important;
+    text-decoration: underline;
     margin: 0 auto;
     margin-top: 15px;
     margin-left: 60px;
@@ -588,7 +651,8 @@ p {
 }
 
 .within div>p{
-    font-weight: bold;
+    font-family: "MijaW03-Regular" !important;
+    font-weight: bolder;
     font-size: 20px;
     color: blue;
     float: right;
